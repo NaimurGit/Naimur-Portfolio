@@ -105,3 +105,27 @@ section ul{
     border-radius: 5px;
     box-shadow: 0px 6px 60px 0px #000000;
 }
+.cv{
+    display: flex;
+    gap: 40px;
+    margin-top: 60px;
+}
+.education-name{
+    font-weight: bold;
+    font-size: 25px;
+    color: #474747;
+}
+.institution{
+    font-weight:500px ;
+    font-size: 18px;
+    color: #757575;
+}
+.description{
+    font-weight:400px ;
+    font-size: 14px;
+    color: #757575;
+}
+.Download-cv{
+    text-align: center;
+    margin-top: 50px;
+}
