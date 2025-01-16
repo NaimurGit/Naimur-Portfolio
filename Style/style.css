@@ -153,3 +153,29 @@ footer input[type="email"]{
     width: 300px;
     border: none;
 }
+
+.hide{
+    display: none;
+}
+
+/* responsive media query */
+
+@media screen and (max-width: 576px ) {
+    
+    nav, .fsection{
+        flex-direction: column;
+    }
+    .header{
+        background-image: none;
+    }
+    .Name{
+        font-size: 2em;
+    }
+    .banner{
+        margin: 5px;
+        display: block;
+    }
+    .fsection{
+        padding: 5px;
+    }
+}
