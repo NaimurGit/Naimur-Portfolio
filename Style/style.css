@@ -162,7 +162,10 @@ footer input[type="email"]{
 
 @media screen and (max-width: 576px ) {
     
-    nav, .fsection{
+    nav,
+    .fsection,
+    section ul,
+    .cv{
         flex-direction: column;
     }
     .header{
@@ -178,4 +181,10 @@ footer input[type="email"]{
     .fsection{
         padding: 5px;
     }
+    .section-description{
+        width: fit-content;
+        font-size: 10px;
+        margin: 0px auto;
+    }
+    
 }
