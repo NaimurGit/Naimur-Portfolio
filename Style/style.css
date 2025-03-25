@@ -186,5 +186,13 @@ footer input[type="email"]{
         font-size: 10px;
         margin: 0px auto;
     }
+    section ul{
+        margin-left: 2px;
+    }
+    /* .skill{
+        margin: auto;
+        max-width: 500px;
+
+    } */
     
 }
